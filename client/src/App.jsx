@@ -22,10 +22,10 @@ function App() {
   }, []);
 
   const handleJoin = () => {
-    if (!username.trim()) return;
-    socket.emit('join', username);
-    setJoined(true);
-  };
+  if (!username.trim()) return;
+  socket.emit('join', { username, room: 'general' }); // ✅ FIXED
+  setJoined(true);
+};
 
   const sendMessage = () => {
     if (!message.trim()) return;
