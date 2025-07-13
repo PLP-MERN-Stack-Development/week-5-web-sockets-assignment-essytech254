@@ -1,18 +1,10 @@
-[![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-2e0aaae1b6195c2367325f4f02e2d04e9abb55f0b24a779b69b11b9e10269abc.svg)](https://classroom.github.com/online_ide?assignment_repo_id=19930653&assignment_repo_type=AssignmentRepo)
-# Real-Time Chat Application with Socket.io
+# 💬 Real-Time Chat Application
 
-This assignment focuses on building a real-time chat application using Socket.io, implementing bidirectional communication between clients and server.
+A full-stack real-time chat application built with **Node.js**, **Socket.io**, **React**, and **Tailwind CSS**. Users can join a global chat room, see who is online, send messages in real-time, and see when others are typing.
 
-## Assignment Overview
+---
 
-You will build a chat application with the following features:
-1. Real-time messaging using Socket.io
-2. User authentication and presence
-3. Multiple chat rooms or private messaging
-4. Real-time notifications
-5. Advanced features like typing indicators and read receipts
-
-## Project Structure
+## 📁 Project Structure
 
 ```
 socketio-chat/
@@ -37,42 +29,31 @@ socketio-chat/
 └── README.md               # Project documentation
 ```
 
-## Getting Started
 
-1. Accept the GitHub Classroom assignment invitation
-2. Clone your personal repository that was created by GitHub Classroom
-3. Follow the setup instructions in the `Week5-Assignment.md` file
-4. Complete the tasks outlined in the assignment
+---
 
-## Files Included
+## ⚙️ Features
 
-- `Week5-Assignment.md`: Detailed assignment instructions
-- Starter code for both client and server:
-  - Basic project structure
-  - Socket.io configuration templates
-  - Sample components for the chat interface
+- Realtime messaging using Socket.io
+- Join a global chat room
+- Typing indicators
+- User join/leave notifications
+- Online users list
+- Clean UI with Tailwind CSS
 
-## Requirements
+---
 
-- Node.js (v18 or higher)
-- npm or yarn
-- Modern web browser
-- Basic understanding of React and Express
+## 🚀 Getting Started
 
-## Submission
+### 1. Clone the repository
+```bash
+git clone https://github.com/your-username/socketio-chat.git
+cd socketio-chat
 
-Your work will be automatically submitted when you push to your GitHub Classroom repository. Make sure to:
+```
+## 📸 Screenshots
 
-1. Complete both the client and server portions of the application
-2. Implement the core chat functionality
-3. Add at least 3 advanced features
-4. Document your setup process and features in the README.md
-5. Include screenshots or GIFs of your working application
-6. Optional: Deploy your application and add the URLs to your README.md
+### 💬 Chat Interface
+![Chat UI](week-5-web-sockets-assignment-essytech254/images/image1.png)
+![Chat UI](week-5-web-sockets-assignment-essytech254/images/image2.png)
 
-## Resources
-
-- [Socket.io Documentation](https://socket.io/docs/v4/)
-- [React Documentation](https://react.dev/)
-- [Express.js Documentation](https://expressjs.com/)
-- [Building a Chat Application with Socket.io](https://socket.io/get-started/chat) 
