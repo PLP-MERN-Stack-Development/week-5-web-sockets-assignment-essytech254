@@ -54,6 +54,5 @@ cd socketio-chat
 ## 📸 Screenshots
 
 ### 💬 Chat Interface
-![Chat UI](week-5-web-sockets-assignment-essytech254/images/image1.png)
-![Chat UI](week-5-web-sockets-assignment-essytech254/images/image2.png)
-
+![Chat UI](week-5-web-sockets-assignment-essytech254/images/image%201.png)
+![Chat UI](week-5-web-sockets-assignment-essytech254/images/image%202.png)
